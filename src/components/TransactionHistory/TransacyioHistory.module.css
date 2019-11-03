@@ -1,0 +1,31 @@
+.table {
+  border-spacing: 0;
+  text-align: center;
+  width: 870px;
+  margin: 0 auto;
+  /* border: 1px solid #000000; */
+  border-radius: 5px;
+}
+
+th {
+  background: #ebeef2;
+  color: rgb(7, 7, 7);
+  padding: 10px 20px;
+}
+
+th,
+td {
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: rgb(82, 77, 77);
+}
+
+tr:last-child {
+  border: 1px solid #000000;
+}
+
+td {
+  font-size: 14px;
+  padding: 10px 20px;
+  background: rgb(255, 255, 255);
+}
